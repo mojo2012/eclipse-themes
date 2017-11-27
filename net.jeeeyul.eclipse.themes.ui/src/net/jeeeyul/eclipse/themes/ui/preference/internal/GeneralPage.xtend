@@ -146,13 +146,13 @@ class GeneralPage extends AbstractJTPreferencePage {
 				partStackSpacingEdit = newSpinner[
 					minimum = 0
 					maximum = 10
-					selection = 2
+					selection = 1
 					layoutData = newGridData[
 						minimumWidth = 40
 					]
 				]
 				partStackSpacingRangeLabel = newLabel[
-					text = "2px ~ 10px"
+					text = "0px ~ 10px"
 					foreground = COLOR_DARK_GRAY
 				]
 				newLabel[text = "Margins"]
@@ -165,7 +165,7 @@ class GeneralPage extends AbstractJTPreferencePage {
 					]
 				]
 				windowMarginsRangeLabel = newLabel[
-					text = "2px ~ 10px"
+					text = "0px ~ 10px"
 					foreground = COLOR_DARK_GRAY
 				]
 			]
@@ -192,7 +192,7 @@ class GeneralPage extends AbstractJTPreferencePage {
 			]
 		} else {
 			partStackSpacingEdit => [
-				minimum = 2
+				minimum = 0
 			]
 			windowMarginsEdit => [
 				minimum = 0
